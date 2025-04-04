@@ -3,6 +3,10 @@
 
 Windows NTLM/Kerberos Authentication Backdoor 
 
+Fork with example Visual Studio Project. Includes additional files from [Microsoft Detours](https://github.com/microsoft/Detours) to allow for compilation.
+
+Bonus Privileged Injector taken from RIT's [original repository](https://github.com/RITRedteam/nosferatu/blob/master/privileged-injector/Source.cpp).
+
 ## How it Works
 
 First, the DLL is injected into the `lsass.exe` process, and will begin hooking authentication WinAPI calls. The targeted functions are:

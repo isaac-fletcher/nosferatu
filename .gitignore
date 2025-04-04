@@ -1,0 +1,9 @@
+# Filter out nosferatu build output
+nosferatu/.vs
+nosferatu/x64
+nosferatu/nosferatu
+
+# Filter out injector build output
+privileged-injector/.vs
+privileged-injector/x64
+privileged-injector/privileg.f4982631
