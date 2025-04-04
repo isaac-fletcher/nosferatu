@@ -1,4 +1,3 @@
-#include "pch.h"
 #include "nosferatu.h"
 
 NTSTATUS HookSamIRetrieveMultiplePrimaryCredentials(unsigned int UserHandle, unsigned int nPackages, PUNICODE_STRING PackageNames, unsigned int Credentials)

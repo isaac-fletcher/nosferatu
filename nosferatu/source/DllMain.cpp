@@ -1,4 +1,3 @@
-#include "pch.h"
 #include "nosferatu.h"
 
 pMsvpPasswordValidate MsvpPasswordValidate = nullptr;
